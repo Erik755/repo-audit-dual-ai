@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dual AI Repository Auditor"
+  short_description: "Audit repositories with Claude or Codex"
+  default_prompt: "Use $repo-audit-dual-ai to inspect this repository and explain its quality risks."

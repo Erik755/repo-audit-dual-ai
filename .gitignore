@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+out/
+repo-audit.json
+repo-audit.md
+
