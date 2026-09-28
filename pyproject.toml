@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repo-audit-dual-ai"
+version = "1.0.0"
+description = "Privacy-conscious repository health audit with optional Codex or Claude recommendations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Erik755" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8,<9",
+  "pytest-cov>=5,<8",
+]
+
+[project.scripts]
+repo-audit = "scripts.audit_repo:main"
+
+[project.urls]
+Homepage = "https://github.com/Erik755/repo-audit-dual-ai"
+Repository = "https://github.com/Erik755/repo-audit-dual-ai"
+Issues = "https://github.com/Erik755/repo-audit-dual-ai/issues"
+
+[tool.setuptools.packages.find]
+include = ["scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

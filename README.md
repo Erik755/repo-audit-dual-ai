@@ -34,6 +34,14 @@ git clone https://github.com/Erik755/repo-audit-dual-ai.git ~/.claude/skills/rep
 
 Python 3.10 or newer and Git are the only local requirements.
 
+To install the command in an isolated environment:
+
+```powershell
+python -m venv .venv
+& .\.venv\Scripts\python.exe -m pip install ".[test]"
+& .\.venv\Scripts\repo-audit.exe --help
+```
+
 ## Run locally without AI
 
 ```powershell
