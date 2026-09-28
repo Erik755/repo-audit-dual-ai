@@ -71,3 +71,15 @@ python -m unittest discover -s tests -v
 python C:\path\to\skill-creator\scripts\quick_validate.py .
 ```
 
+## Policies and legal notes
+
+- [Privacy](PRIVACY.md) explains what stays local and what an optional AI provider receives.
+- [Security](SECURITY.md) explains supported versions and responsible reporting.
+- [Contributing](CONTRIBUTING.md) requires contributors to submit only work they may license.
+- [Notice](NOTICE.md) records independence, trademark, authorization, and warranty boundaries.
+- [Code of Conduct](CODE_OF_CONDUCT.md) governs project participation.
+
+The software is released under the [MIT License](LICENSE). These documents describe project policy
+and are not legal advice.
+
+

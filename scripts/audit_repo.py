@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Generate a local repository-health report with optional dual-provider advice."""
 
 from __future__ import annotations
